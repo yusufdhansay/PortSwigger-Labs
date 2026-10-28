@@ -1,4 +1,4 @@
-# 🛡️ PortSwigger Web Security Academy — Labs & Exploitation Portfolio
+# PortSwigger Web Security Academy - Labs & Exploitation Portfolio
 
 Welcome to my personal web application security and penetration testing portfolio! This repository contains detailed technical write-ups, professional vulnerability reports, and custom Python automation scripts (Proof-of-Concept exploits) developed while solving labs from the **PortSwigger Web Security Academy**.
 
@@ -35,30 +35,6 @@ PortSwigger-Labs/
         ├── README.md
         └── exploit.py
 ```
-
----
-
-## 📊 Learning & Exploitation Progress
-
-### 🔴 High-Yield / Core Vulnerabilities
-- [ ] **SQL Injection (SQLi)**
-  - [x] `sqli/04-db-version-query` — Querying the database type and version on MySQL/Microsoft
-- [ ] **Cross-Site Scripting (XSS)**
-- [ ] **Authentication Vulnerabilities**
-- [ ] **Access Control & IDOR**
-- [ ] **Server-Side Request Forgery (SSRF)**
-- [ ] **Business Logic Vulnerabilities**
-
-### 🟡 APIs & Modern Auth
-- [ ] **JWT Attacks**
-- [ ] **OAuth 2.0 Vulnerabilities**
-- [ ] **API & GraphQL Vulnerabilities**
-
-### 🔵 Advanced & High-Payout Topics
-- [ ] **HTTP Request Smuggling**
-- [ ] **Web Cache Poisoning**
-- [ ] **Race Conditions**
-- [ ] **Server-Side Template Injection (SSTI)**
 
 ---
 
