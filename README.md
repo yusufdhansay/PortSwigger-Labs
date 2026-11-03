@@ -18,21 +18,24 @@ Each module contains dedicated lab folders organized by short topic slugs. Every
 ```text
 PortSwigger-Labs/
 │
-├── README.md                          <-- Root Portfolio & Progress Tracker
+├── README.md                          <-- Root Portfolio
 │
-├── sqli/                              <-- Vulnerability Topic
-│   └── 04-db-version-query/           <-- Lab Specific Directory
-│       ├── README.md                  <-- Vulnerability Report (Description, Impact, Fix) & Notes
+├── SQLi/                              <-- Vulnerability Topic
+│   └── 01-hidden-data-retrieval/      <-- Lab Specific Directory
+│       ├── REPORT.md                  <-- Vulnerability Report (Description, Impact, Fix)
+│       └── NOTES.md                   <-- Personal Working Notes
 │       └── exploit.py                 <-- Python PoC Script
 │
-├── xss/
-│   └── 01-reflected-xss-html/
-│       ├── README.md
+├── SSRF/
+│   └── 01-against-local-server/
+│       ├── REPORT.md
+│       └── NOTES.md
 │       └── exploit.py
 │
-└── authentication/
-    └── 01-username-enumeration/
-        ├── README.md
+└── Access-Control/
+    └── 01-unprotected-admin-functionality/
+        ├── REPORT.md
+        └── NOTES.md
         └── exploit.py
 ```
 
@@ -48,4 +51,4 @@ PortSwigger-Labs/
 ---
 
 ## 📄 License & Responsible Disclosure
-This repository is strictly for educational, portfolio, and security research purposes. All labs and exercises are performed within the isolated sandbox environment provided by PortSwigger Web Security Academy.
+This repository is strictly for educational, portfolio, and security research purposes. All labs and exercises are performed within the isolated sandbox environment provided by PortSwigger Web Security Academy. Python scripts are inspired by the community solutions
